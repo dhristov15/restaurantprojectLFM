@@ -39,6 +39,6 @@ public class Coffee extends HotDrinks {
 	
 	@Override
 	public String toString() {
-		return name +": $"+ cost;
+		return name +" - $"+ cost;
 	}
 }

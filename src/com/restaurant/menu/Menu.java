@@ -5,15 +5,15 @@ import java.util.ArrayList;
 import com.restaurant.items.Item;
 
 public class Menu {
- static ArrayList<String> items = new ArrayList<>();
+ static ArrayList<Item> items = new ArrayList<>();
 	
 	public static void addItem(Item item) {
-		items.add(item.toString());
+		items.add(item);
 	}
 	public static void displayItems() {
 		System.out.println(items.toString());
 	}
-	public static ArrayList<String> getItems() {
+	public static ArrayList<Item> getItems() {
 		return items;
 	}
 	public static void removeItem(Item item) {

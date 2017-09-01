@@ -4,13 +4,13 @@ import com.restaurant.items.Item;
 
 public class Order {
 	String name;
-	int quantity;
+	public int quantity;
 	
-	Order(){
+	public Order(){
 		this.name = "";
 		this.quantity = 0;
 	}
-	Order(Item item, int quantity){
+	public Order(Item item, int quantity){
 		this.name = item.toString();
 		this.quantity = quantity;
 	}

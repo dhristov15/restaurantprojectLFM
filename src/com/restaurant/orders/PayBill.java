@@ -1,7 +1,9 @@
 package com.restaurant.orders;
 
 public class PayBill {
-	public double payableAmount(PlaceOrder order) {
-		return 0;
+	public static double amountToBePayed(Order order) {
+		double bill = 0;
+		bill = order.quantity;
+		return bill;
 	}
 }

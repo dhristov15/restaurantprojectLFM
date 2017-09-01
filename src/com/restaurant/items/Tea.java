@@ -39,7 +39,7 @@ public class Tea extends HotDrinks {
 	
 	@Override
 	public String toString() {
-		return name +": $"+ cost;
+		return name +" - $"+ cost;
 	}
 
 }
